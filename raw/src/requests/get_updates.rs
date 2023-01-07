@@ -74,4 +74,12 @@ pub enum AllowedUpdate {
     ShippingQuery,
     #[serde(rename = "pre_checkout_query")]
     PreCheckoutQuery,
+    #[serde(rename = "poll")]
+    Poll,
+    #[serde(rename = "poll_answer")]
+    PollAnswer,
+    #[serde(rename = "my_chat_member")]
+    MyChatMember,
+    #[serde(rename = "chat_member")]
+    ChatMember,
 }
